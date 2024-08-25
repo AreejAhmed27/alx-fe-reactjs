@@ -1,6 +1,7 @@
 
 function UserProfile({name, age, bio}){
     const UserProfile = (props) => {
+          const userData = useContext(UserContext);
         return (
           <div>
             <h2>{props.name}</h2>
