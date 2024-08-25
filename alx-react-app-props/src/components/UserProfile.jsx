@@ -1,4 +1,4 @@
-
+import {useContext} from 'react'
 function UserProfile({name, age, bio}){
     const UserProfile = (props) => {
           const userData = useContext(UserContext);
